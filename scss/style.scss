@@ -1,0 +1,29 @@
+@charset "UTF-8";
+// font
+
+// parameters
+$tablet: 1179px;
+$mobile: 539px;
+
+// reset
+@import "reset.scss";
+
+/* main page */
+@import "main/header.scss";
+// .scss 확장자는 생략 가능
+@import "main/visual";
+@import "main/news";
+@import "main/brand";
+@import "main/banner";
+@import "main/comments";
+@import "main/footer";
+@import "main/mediaquery";
+
+/* sub-page */
+// 공통
+@import "sub/common";
+
+// 세부 영역
+@import "sub/department";
+@import "sub/community";
+@import "sub/join";
