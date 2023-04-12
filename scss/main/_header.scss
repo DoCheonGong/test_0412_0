@@ -101,7 +101,8 @@
                 }
             }
         }
-
-        @import "mobileMenu.scss";
+        @media screen and (max-width: $mobile) {
+           @import "mobileMenu.scss";
+        }
     }
 }
